@@ -1,12 +1,12 @@
 import random
 
-from dice.game.director import Director
+from director import Director
 
 # TODO: Define the Thrower class here.
 class thrower(dice, num_throws):    
     def __init__(self):
         self.dice = []
-        self.num_throws =0
+        self.num_throws = 0
         
     def can_throw(self):
         return (self.dice.count(5) > 0 or self.dice.count(1) > 0 or self.num_throws == 0)

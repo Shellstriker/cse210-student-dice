@@ -1,4 +1,4 @@
-from game.thrower import Thrower
+from thrower import thrower
 
 class Director:
     """A code template for a person who directs the game. The responsibility of 
@@ -38,6 +38,7 @@ class Director:
 
         Args:
             self (Director): An instance of Director.
+            thrower(Thorwer): An instance of Thrower
         """
         self.thrower.throw_dice()
         
