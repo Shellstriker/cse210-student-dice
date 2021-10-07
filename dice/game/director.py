@@ -1,4 +1,4 @@
-from thrower import thrower
+from game.thrower import thrower
 
 class Director:
     """A code template for a person who directs the game. The responsibility of 

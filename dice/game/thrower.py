@@ -1,6 +1,5 @@
 import random
 
-from director import Director
 
 # TODO: Define the Thrower class here.
 class thrower(dice, num_throws):    
